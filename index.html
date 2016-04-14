@@ -6,13 +6,10 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <FORM NAME="Calc">
+<FORM NAME="Calc">
 <TABLE BORDER=3>
 <TR>
-<TD>
-<INPUT TYPE="text"   NAME="Input" Size="22">
-<br>
-</TD>
+<TD><INPUT TYPE="text"   NAME="Input" Size="22"><br></TD>
 </TR>
 <TR>
 <TD class="buttons">
@@ -25,7 +22,7 @@
 <INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
     <br>
 <INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
-<br>
+
 </TD>
 </TR>
 </TABLE>
