@@ -1,0 +1,20 @@
+html{
+     margin: 0 auto;
+     width: 50%;
+     height: 125px;
+     font-size: 1.5em;
+}
+
+body{
+    width: 100%;
+    100vh;
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+
+.buttons{
+    background-color: pink;
+    color: #fff;
+}
